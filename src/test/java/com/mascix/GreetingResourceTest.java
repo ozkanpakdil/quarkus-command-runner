@@ -31,7 +31,7 @@ public class GreetingResourceTest {
         String r = "Directory";
         if (!System.getProperty("os.name").toLowerCase().contains("windows"))// check is OS windows
         {
-            r = "1.2.3.4";
+            r = "Whois";
         }
         given()
                 .when()
