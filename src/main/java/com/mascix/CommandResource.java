@@ -13,13 +13,9 @@ import javax.ws.rs.core.MediaType;
 import org.apache.commons.validator.routines.InetAddressValidator;
 import org.jboss.resteasy.annotations.cache.Cache;
 
-import lombok.extern.java.Log;
-import lombok.extern.slf4j.Slf4j;
-
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 
-@Log
 @Path("/whois")
 public class CommandResource {
 
