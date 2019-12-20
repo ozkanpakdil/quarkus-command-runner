@@ -28,13 +28,18 @@ public class GreetingResourceTest {
 
     @Test
     public void testHelloEndpoint() {
+        String r = "Directory";
+        if (!System.getProperty("os.name").toLowerCase().contains("windows"))// check is OS windows
+        {
+            r = "1.2.3.4";
+        }
         given()
                 .when()
                 .queryParam("ip", "1.2.3.4")
                 .get("/whois")
                 .then()
                 .statusCode(200)
-                .body(containsString("Directory"));
+                .body(containsString(r));
     }
 
 }
