@@ -21,9 +21,8 @@ public class CommandResource {
     @Produces(MediaType.TEXT_PLAIN)
     public CompletionStage<Object> whois(@QueryParam("ip") String ip) throws Exception {
         if (!InetAddresses.isInetAddress(ip)) {
-            return null;
+            return returnFuture("");
         }
-        // log.info(line);
         return returnFuture(cmd.execToString(ip));
     }
 
