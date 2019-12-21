@@ -1,18 +1,13 @@
 package com.mascix;
 
-import javax.cache.annotation.CacheKey;
-import javax.cache.annotation.CacheResult;
+import com.google.common.net.InetAddresses;
+
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-
-import org.apache.commons.validator.routines.InetAddressValidator;
-import org.jboss.resteasy.annotations.cache.Cache;
-
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionStage;
 
@@ -25,7 +20,7 @@ public class CommandResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public CompletionStage<Object> whois(@QueryParam("ip") String ip) throws Exception {
-        if (!InetAddressValidator.getInstance().isValid(ip)) {
+        if (!InetAddresses.isInetAddress(ip)) {
             return null;
         }
         // log.info(line);

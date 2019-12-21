@@ -1,18 +1,14 @@
 package com.mascix;
 
-import java.util.Hashtable;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CompletionStage;
-import java.util.concurrent.TimeUnit;
-
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
-
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import io.quarkus.scheduler.Scheduled;
+import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.concurrent.TimeUnit;
 
 @ApplicationScoped
 public class CommandService {
@@ -22,7 +18,7 @@ public class CommandService {
     @Inject
     CacheHelper cache;
 
-    public String execToString(String ip) throws Exception {
+    public String execToString(String ip) throws IOException, InterruptedException {
         String c1 = "/bin/sh";
         String[] cmd = {c1, "-c", "torify whois " + ip};
         if (System.getProperty("os.name").toLowerCase().contains("windows"))// check is OS windows
@@ -36,12 +32,12 @@ public class CommandService {
         }
 
         log.info("ip:{}", ip);
-        String result = "";
+        String result;
         ProcessBuilder pb = new ProcessBuilder(cmd);
         Process p = pb.start();
         p.waitFor(60, TimeUnit.SECONDS);
 
-        result = IOUtils.toString(p.getInputStream(), "UTF-8");
+        result = IOUtils.toString(p.getInputStream(), StandardCharsets.UTF_8);
         cache.put(ip, result);
         return result;
     }
