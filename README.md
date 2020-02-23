@@ -1,2 +1,2 @@
 # quarkus-command-runner
-![release](https://github.com/ozkanpakdil/quarkus-command-runner/workflows/release/badge.svg)
+![CI Build](https://github.com/ozkanpakdil/quarkus-command-runner/workflows/CI%20Build/badge.svg)
