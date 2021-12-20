@@ -20,7 +20,7 @@ jobs:
           servers: '[{"id": "github", "username": "x-access-token", "password": "${GITHUB_TOKEN}"}]'
 
       - name: checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       - name: deploy
         env:
