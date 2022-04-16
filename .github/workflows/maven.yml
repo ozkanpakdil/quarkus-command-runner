@@ -25,4 +25,4 @@ jobs:
       - name: deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn deploy -DskipTests
+        run: mvn -ntp deploy -DskipTests
