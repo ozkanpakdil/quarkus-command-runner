@@ -104,7 +104,7 @@ docker tag torify-whois-quarkus ozkanpakdil/torify-whois-quarkus
 docker push ozkanpakdil/torify-whois-quarkus
 ```
 
-for (graalvm)[https://hub.docker.com/r/ozkanpakdil/torify-whois-quarkus-graalvm]
+for [graalvm](https://hub.docker.com/r/ozkanpakdil/torify-whois-quarkus-graalvm)
 ```bash
 mvn clean package -DskipTests -P native
 docker tag torify-whois-quarkus-graalvm ozkanpakdil/torify-whois-quarkus-graalvm
