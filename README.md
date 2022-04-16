@@ -110,3 +110,4 @@ mvn clean package -DskipTests -P native
 docker tag torify-whois-quarkus-graalvm ozkanpakdil/torify-whois-quarkus-graalvm
 docker push ozkanpakdil/torify-whois-quarkus-graalvm
 ```
+there is a big difference in container size, one without jre build with graalvm takes 75mb and other one with jre is 219mb. graalvm wins again :)
