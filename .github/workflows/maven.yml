@@ -28,11 +28,13 @@ jobs:
       - name: deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOCKERHUB_USER: ${{ secrets.DOCKERHUB_USER }}
+          DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
         run: |
           java --version
           mvn -ntp deploy -DskipTests
 
-          docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_PASSWORD" docker.io
+          docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASSWORD
 
           docker build -f src/main/docker/Dockerfile.jvm -t torify-whois-quarkus .
           docker tag torify-whois-quarkus ozkanpakdil/torify-whois-quarkus
