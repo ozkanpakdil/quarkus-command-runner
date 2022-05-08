@@ -13,7 +13,10 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          version: 'latest'
+          java-version: '17'
       - name: setup-maven-settings
         uses: s4u/maven-settings-action@v1
         with:
@@ -25,4 +28,8 @@ jobs:
       - name: deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: mvn -ntp deploy -DskipTests
+        run: |
+          java --version
+          native-image --version
+          mvn package -P native
+          mvn -ntp deploy -DskipTests
