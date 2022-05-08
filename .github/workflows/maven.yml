@@ -30,6 +30,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           java --version
-          native-image --version
-          mvn package -P native
           mvn -ntp deploy -DskipTests
+          docker build -f src/main/docker/Dockerfile.jvm -t torify-whois-quarkus .
+          docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_PASSWORD"
+          docker tag torify-whois-quarkus ozkanpakdil/torify-whois-quarkus
+          docker push ozkanpakdil/torify-whois-quarkus
+
+          mvn package -P native
+          docker build -f src/main/docker/Dockerfile.native -t torify-whois-quarkus-graalvm .
+          docker tag torify-whois-quarkus-graalvm ozkanpakdil/torify-whois-quarkus-graalvm
+          docker push ozkanpakdil/torify-whois-quarkus-graalvm
