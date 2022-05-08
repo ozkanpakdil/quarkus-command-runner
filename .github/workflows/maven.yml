@@ -32,7 +32,7 @@ jobs:
           java --version
           mvn -ntp deploy -DskipTests
 
-          docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_PASSWORD"
+          docker login -u "$DOCKERHUB_USER" -p "$DOCKERHUB_PASSWORD" docker.io
 
           docker build -f src/main/docker/Dockerfile.jvm -t torify-whois-quarkus .
           docker tag torify-whois-quarkus ozkanpakdil/torify-whois-quarkus
