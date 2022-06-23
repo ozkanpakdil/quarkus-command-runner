@@ -1,0 +1,8 @@
+{
+  "modules": [
+    {
+      "name": "quarkus-command-runner",
+      "languageLevel": 11
+    }
+  ]
+}

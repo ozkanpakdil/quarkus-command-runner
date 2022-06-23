@@ -1,0 +1,1138 @@
+{
+  "libraries": [
+    {
+      "name": "Maven: io.quarkus:quarkus-resteasy-jsonb:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-jsonb/2.8.3.Final/quarkus-resteasy-jsonb-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-jsonb:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jsonb/2.8.3.Final/quarkus-jsonb-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.eclipse:yasson:1.0.11",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/eclipse/yasson/1.0.11/yasson-1.0.11.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-jsonp:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jsonp/2.8.3.Final/quarkus-jsonp-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.resteasy:resteasy-json-binding-provider:4.7.5.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-json-binding-provider/4.7.5.Final/resteasy-json-binding-provider-4.7.5.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.glassfish:jakarta.json:1.1.6",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.json/1.1.6/jakarta.json-1.1.6.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: jakarta.json.bind:jakarta.json.bind-api:1.0.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/jakarta/json/bind/jakarta.json.bind-api/1.0.2/jakarta.json.bind-api-1.0.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.logging:jboss-logging:3.4.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.resteasy:resteasy-json-p-provider:4.7.5.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-json-p-provider/4.7.5.Final/resteasy-json-p-provider-4.7.5.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: commons-io:commons-io:2.11.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-scheduler:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-scheduler/2.8.3.Final/quarkus-scheduler-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.cronutils:cron-utils:9.1.6",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/cronutils/cron-utils/9.1.6/cron-utils-9.1.6.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.slf4j:slf4j-api:1.7.36",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.javassist:javassist:3.27.0-GA",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.27.0-GA/javassist-3.27.0-GA.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.slf4j:slf4j-jboss-logmanager:1.1.0.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/slf4j/slf4j-jboss-logmanager/1.1.0.Final/slf4j-jboss-logmanager-1.1.0.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.glassfish:jakarta.el:3.0.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/glassfish/jakarta.el/3.0.4/jakarta.el-3.0.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-arc:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc/2.8.3.Final/quarkus-arc-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus.arc:arc:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/arc/arc/2.8.3.Final/arc-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: jakarta.enterprise:jakarta.enterprise.cdi-api:2.0.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/jakarta/enterprise/jakarta.enterprise.cdi-api/2.0.2/jakarta.enterprise.cdi-api-2.0.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: jakarta.el:jakarta.el-api:3.0.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/jakarta/el/jakarta.el-api/3.0.3/jakarta.el-api-3.0.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: jakarta.interceptor:jakarta.interceptor-api:1.2.5",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/jakarta/interceptor/jakarta.interceptor-api/1.2.5/jakarta.interceptor-api-1.2.5.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: jakarta.annotation:jakarta.annotation-api:1.3.5",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: jakarta.transaction:jakarta.transaction-api:1.3.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-core:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-core/2.8.3.Final/quarkus-core-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: jakarta.inject:jakarta.inject-api:1.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/jakarta/inject/jakarta.inject-api/1.0/jakarta.inject-api-1.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-ide-launcher:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-ide-launcher/2.8.3.Final/quarkus-ide-launcher-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-development-mode-spi:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-development-mode-spi/2.8.3.Final/quarkus-development-mode-spi-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.config:smallrye-config:2.9.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/config/smallrye-config/2.9.2/smallrye-config-2.9.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.config:smallrye-config-core:2.9.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/config/smallrye-config-core/2.9.2/smallrye-config-core-2.9.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.eclipse.microprofile.config:microprofile-config-api:2.0.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/eclipse/microprofile/config/microprofile-config-api/2.0.1/microprofile-config-api-2.0.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.common:smallrye-common-expression:1.10.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-expression/1.10.0/smallrye-common-expression-1.10.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.common:smallrye-common-function:1.10.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-function/1.10.0/smallrye-common-function-1.10.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.common:smallrye-common-classloader:1.10.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-classloader/1.10.0/smallrye-common-classloader-1.10.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.config:smallrye-config-common:2.9.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/config/smallrye-config-common/2.9.2/smallrye-config-common-2.9.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.logmanager:jboss-logmanager-embedded:1.0.9",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/logmanager/jboss-logmanager-embedded/1.0.9/jboss-logmanager-embedded-1.0.9.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.logging:jboss-logging-annotations:2.2.1.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging-annotations/2.2.1.Final/jboss-logging-annotations-2.2.1.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.threads:jboss-threads:3.4.2.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/threads/jboss-threads/3.4.2.Final/jboss-threads-3.4.2.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.graalvm.sdk:graal-sdk:22.0.0.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/graalvm/sdk/graal-sdk/22.0.0.2/graal-sdk-22.0.0.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.wildfly.common:wildfly-common:1.5.4.Final-format-001",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/wildfly/common/wildfly-common/1.5.4.Final-format-001/wildfly-common-1.5.4.Final-format-001.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-bootstrap-runner:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-bootstrap-runner/2.8.3.Final/quarkus-bootstrap-runner-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-fs-util:0.0.9",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-fs-util/0.0.9/quarkus-fs-util-0.0.9.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api:1.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/eclipse/microprofile/context-propagation/microprofile-context-propagation-api/1.2/microprofile-context-propagation-api-1.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-resteasy:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy/2.8.3.Final/quarkus-resteasy-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-vertx-http:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http/2.8.3.Final/quarkus-vertx-http-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-security-runtime-spi:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-security-runtime-spi/2.8.3.Final/quarkus-security-runtime-spi-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.common:smallrye-common-vertx-context:1.10.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-vertx-context/1.10.0/smallrye-common-vertx-context-1.10.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.vertx:vertx-core:4.2.7",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/vertx/vertx-core/4.2.7/vertx-core-4.2.7.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-common:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-common/4.1.74.Final/netty-common-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-buffer:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-buffer/4.1.74.Final/netty-buffer-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-transport:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.74.Final/netty-transport-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-handler:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-handler/4.1.74.Final/netty-handler-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-tcnative-classes:2.0.48.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-tcnative-classes/2.0.48.Final/netty-tcnative-classes-2.0.48.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-handler-proxy:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-handler-proxy/4.1.74.Final/netty-handler-proxy-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-codec-socks:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-socks/4.1.74.Final/netty-codec-socks-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-codec-http:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http/4.1.74.Final/netty-codec-http-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-codec-http2:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-http2/4.1.74.Final/netty-codec-http2-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-resolver:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver/4.1.74.Final/netty-resolver-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-resolver-dns:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-resolver-dns/4.1.74.Final/netty-resolver-dns-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-codec-dns:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-dns/4.1.74.Final/netty-codec-dns-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.fasterxml.jackson.core:jackson-core:2.13.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.common:smallrye-common-constraint:1.10.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-constraint/1.10.0/smallrye-common-constraint-1.10.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-dev-console-runtime-spi/2.8.3.Final/quarkus-vertx-http-dev-console-runtime-spi-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus.security:quarkus-security:1.1.4.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/security/quarkus-security/1.1.4.Final/quarkus-security-1.1.4.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-vertx:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx/2.8.3.Final/quarkus-vertx-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-netty:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty/2.8.3.Final/quarkus-netty-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-codec:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-codec/4.1.74.Final/netty-codec-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.netty:netty-codec-haproxy:4.1.74.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/netty/netty-codec-haproxy/4.1.74.Final/netty-codec-haproxy-4.1.74.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.common:smallrye-common-annotation:1.10.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-annotation/1.10.0/smallrye-common-annotation-1.10.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-core:2.21.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/smallrye-mutiny-vertx-core/2.21.0/smallrye-mutiny-vertx-core-2.21.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-runtime:2.21.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/smallrye-mutiny-vertx-runtime/2.21.0/smallrye-mutiny-vertx-runtime-2.21.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:vertx-mutiny-generator:2.21.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/vertx-mutiny-generator/2.21.0/vertx-mutiny-generator-2.21.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.vertx:vertx-codegen:4.2.7",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/vertx/vertx-codegen/4.2.7/vertx-codegen-4.2.7.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye:smallrye-fault-tolerance-vertx:5.3.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/smallrye-fault-tolerance-vertx/5.3.1/smallrye-fault-tolerance-vertx-5.3.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-web:2.21.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/smallrye-mutiny-vertx-web/2.21.0/smallrye-mutiny-vertx-web-2.21.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-web-common:2.21.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/smallrye-mutiny-vertx-web-common/2.21.0/smallrye-mutiny-vertx-web-common-2.21.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:2.21.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/smallrye-mutiny-vertx-auth-common/2.21.0/smallrye-mutiny-vertx-auth-common-2.21.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:2.21.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/smallrye-mutiny-vertx-bridge-common/2.21.0/smallrye-mutiny-vertx-bridge-common-2.21.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.vertx:vertx-web:4.2.7",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/4.2.7/vertx-web-4.2.7.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.vertx:vertx-web-common:4.2.7",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web-common/4.2.7/vertx-web-common-4.2.7.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.vertx:vertx-auth-common:4.2.7",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/4.2.7/vertx-auth-common-4.2.7.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.vertx:vertx-bridge-common:4.2.7",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/vertx/vertx-bridge-common/4.2.7/vertx-bridge-common-4.2.7.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-resteasy-server-common:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common/2.8.3.Final/quarkus-resteasy-server-common-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-resteasy-common:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common/2.8.3.Final/quarkus-resteasy-common-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.resteasy:resteasy-core:4.7.5.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-core/4.7.5.Final/resteasy-core-4.7.5.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:2.0.1.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ws/rs/jboss-jaxrs-api_2.1_spec/2.0.1.Final/jboss-jaxrs-api_2.1_spec-2.0.1.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/xml/bind/jboss-jaxb-api_2.3_spec/2.0.0.Final/jboss-jaxb-api_2.3_spec-2.0.0.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.resteasy:resteasy-core-spi:4.7.5.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/resteasy/resteasy-core-spi/4.7.5.Final/resteasy-core-spi-4.7.5.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.ibm.async:asyncutil:0.1.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/ibm/async/asyncutil/0.1.0/asyncutil-0.1.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.sun.activation:jakarta.activation:1.2.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: jakarta.validation:jakarta.validation-api:2.0.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-cache:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-cache/2.8.3.Final/quarkus-cache-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-caffeine:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-caffeine/2.8.3.Final/quarkus-caffeine-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.github.ben-manes.caffeine:caffeine:2.9.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-mutiny:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-mutiny/2.8.3.Final/quarkus-mutiny-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:mutiny:1.4.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/mutiny/1.4.0/mutiny-1.4.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.reactivestreams:reactive-streams:1.0.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-smallrye-context-propagation:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-smallrye-context-propagation/2.8.3.Final/quarkus-smallrye-context-propagation-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye:smallrye-context-propagation:1.2.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/smallrye-context-propagation/1.2.2/smallrye-context-propagation-1.2.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye:smallrye-context-propagation-api:1.2.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/smallrye-context-propagation-api/1.2.2/smallrye-context-propagation-api-1.2.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye:smallrye-context-propagation-storage:1.2.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/smallrye-context-propagation-storage/1.2.2/smallrye-context-propagation-storage-1.2.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.reactive:mutiny-smallrye-context-propagation:1.4.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/reactive/mutiny-smallrye-context-propagation/1.4.0/mutiny-smallrye-context-propagation-1.4.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-junit5:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-junit5/2.8.3.Final/quarkus-junit5-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-bootstrap-core:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-bootstrap-core/2.8.3.Final/quarkus-bootstrap-core-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-bootstrap-app-model:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-bootstrap-app-model/2.8.3.Final/quarkus-bootstrap-app-model-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-bootstrap-maven-resolver:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-bootstrap-maven-resolver/2.8.3.Final/quarkus-bootstrap-maven-resolver-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-embedder:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-embedder/3.8.4/maven-embedder-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-settings:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-settings/3.8.4/maven-settings-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-core:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-core/3.8.4/maven-core-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-artifact:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-artifact/3.8.4/maven-artifact-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.plexus:plexus-component-annotations:2.1.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-plugin-api:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-plugin-api/3.8.4/maven-plugin-api-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-model:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-model/3.8.4/maven-model-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-model-builder:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-model-builder/3.8.4/maven-model-builder-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-builder-support:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-builder-support/3.8.4/maven-builder-support-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.resolver:maven-resolver-api:1.6.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/resolver/maven-resolver-api/1.6.3/maven-resolver-api-1.6.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.resolver:maven-resolver-util:1.6.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/resolver/maven-resolver-util/1.6.3/maven-resolver-util-1.6.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.shared:maven-shared-utils:3.3.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.google.inject:guice:no_aop:4.2.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.plexus:plexus-classworlds:2.6.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.plexus:plexus-sec-dispatcher:2.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-sec-dispatcher/2.0/plexus-sec-dispatcher-2.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.plexus:plexus-cipher:2.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-cipher/2.0/plexus-cipher-2.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: commons-cli:commons-cli:1.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/commons-cli/commons-cli/1.4/commons-cli-1.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.5/org.eclipse.sisu.plexus-0.3.5.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-settings-builder:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-settings-builder/3.8.4/maven-settings-builder-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.plexus:plexus-interpolation:1.26",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-resolver-provider:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-resolver-provider/3.8.4/maven-resolver-provider-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven:maven-repository-metadata:3.8.4",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/maven-repository-metadata/3.8.4/maven-repository-metadata-3.8.4.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.resolver:maven-resolver-spi:1.6.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/resolver/maven-resolver-spi/1.6.3/maven-resolver-spi-1.6.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.resolver:maven-resolver-impl:1.6.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/resolver/maven-resolver-impl/1.6.3/maven-resolver-impl-1.6.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.plexus:plexus-utils:3.3.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.resolver:maven-resolver-connector-basic:1.6.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/resolver/maven-resolver-connector-basic/1.6.3/maven-resolver-connector-basic-1.6.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.resolver:maven-resolver-transport-wagon:1.6.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/resolver/maven-resolver-transport-wagon/1.6.3/maven-resolver-transport-wagon-1.6.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.wagon:wagon-http:3.4.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-http/3.4.3/wagon-http-3.4.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.wagon:wagon-http-shared:3.4.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-http-shared/3.4.3/wagon-http-shared-3.4.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jsoup:jsoup:1.14.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.14.2/jsoup-1.14.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.wagon:wagon-provider-api:3.4.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-provider-api/3.4.3/wagon-provider-api-3.4.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.maven.wagon:wagon-file:3.4.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/maven/wagon/wagon-file/3.4.3/wagon-file-3.4.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-bootstrap-gradle-resolver:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-bootstrap-gradle-resolver/2.8.3.Final/quarkus-bootstrap-gradle-resolver-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.smallrye.common:smallrye-common-io:1.10.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/smallrye/common/smallrye-common-io/1.10.0/smallrye-common-io-1.10.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.5/org.eclipse.sisu.inject-0.3.5.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-test-common:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-test-common/2.8.3.Final/quarkus-test-common-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-core-deployment:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-core-deployment/2.8.3.Final/quarkus-core-deployment-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.aesh:readline:2.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/aesh/readline/2.2/readline-2.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.fusesource.jansi:jansi:1.18",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/fusesource/jansi/jansi/1.18/jansi-1.18.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.aesh:aesh:2.6",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/aesh/aesh/2.6/aesh-2.6.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus.gizmo:gizmo:1.0.10.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/gizmo/gizmo/1.0.10.Final/gizmo-1.0.10.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.ow2.asm:asm-util:9.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-util/9.2/asm-util-9.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.ow2.asm:asm:9.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm/9.2/asm-9.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.ow2.asm:asm-commons:9.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.ow2.asm:asm-tree:9.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.ow2.asm:asm-analysis:9.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-class-change-agent:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-class-change-agent/2.8.3.Final/quarkus-class-change-agent-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-devtools-utilities:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-devtools-utilities/2.8.3.Final/quarkus-devtools-utilities-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-builder:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-builder/2.8.3.Final/quarkus-builder-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.junit.platform:junit-platform-launcher:1.8.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-launcher/1.8.2/junit-platform-launcher-1.8.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-jsonp-deployment:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jsonp-deployment/2.8.3.Final/quarkus-jsonp-deployment-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss:jandex:2.4.2.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.jboss.logging:commons-logging-jboss-logging:1.0.0.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/jboss/logging/commons-logging-jboss-logging/1.0.0.Final/commons-logging-jboss-logging-1.0.0.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.quarkus:quarkus-junit5-properties:2.8.3.Final",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-junit5-properties/2.8.3.Final/quarkus-junit5-properties-2.8.3.Final.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.junit.jupiter:junit-jupiter:5.8.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.junit.jupiter:junit-jupiter-api:5.8.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.opentest4j:opentest4j:1.2.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.junit.platform:junit-platform-commons:1.8.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apiguardian:apiguardian-api:1.1.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.junit.jupiter:junit-jupiter-params:5.8.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.junit.platform:junit-platform-engine:1.8.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.thoughtworks.xstream:xstream:1.4.19",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.19/xstream-1.4.19.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.github.x-stream:mxparser:1.2.2",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: xmlpull:xmlpull:1.1.3.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.rest-assured:rest-assured:4.5.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.5.1/rest-assured-4.5.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.groovy:groovy:3.0.9",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy/3.0.9/groovy-3.0.9.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.groovy:groovy-xml:3.0.9",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-xml/3.0.9/groovy-xml-3.0.9.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.httpcomponents:httpclient:4.5.13",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.httpcomponents:httpcore:4.4.15",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: commons-codec:commons-codec:1.15",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.15/commons-codec-1.15.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.httpcomponents:httpmime:4.5.13",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.hamcrest:hamcrest:2.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.ccil.cowan.tagsoup:tagsoup:1.2.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.rest-assured:json-path:4.5.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/rest-assured/json-path/4.5.1/json-path-4.5.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.codehaus.groovy:groovy-json:3.0.9",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-json/3.0.9/groovy-json-3.0.9.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.rest-assured:rest-assured-common:4.5.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured-common/4.5.1/rest-assured-common-4.5.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: io.rest-assured:xml-path:4.5.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/io/rest-assured/xml-path/4.5.1/xml-path-4.5.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.apache.commons:commons-lang3:3.12.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.google.guava:guava:31.1-jre",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.google.guava:failureaccess:1.0.1",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: org.checkerframework:checker-qual:3.21.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.21.3/checker-qual-3.21.3.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.google.errorprone:error_prone_annotations:2.11.0",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar!/"
+      ]
+    },
+    {
+      "name": "Maven: com.google.j2objc:j2objc-annotations:1.3",
+      "roots": [
+        "jar://$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar!/"
+      ]
+    }
+  ]
+}

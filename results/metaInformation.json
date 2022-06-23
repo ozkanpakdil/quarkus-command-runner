@@ -1,0 +1,16 @@
+{
+  "total": 0,
+  "tools inspection": {
+    "Code Inspection": 0
+  },
+  "attributes": {
+    "vcs": {
+      "sarifIdea": {
+        "repositoryUri": "https://github.com/ozkanpakdil/quarkus-command-runner",
+        "revisionId": "b49a1ab43d4dfa36dcd2adae384c7d5c2c1d9e86",
+        "branch": "master"
+      }
+    },
+    "deviceId": "200820300000000-57ac-9e89-9a19-c8a31bf09493"
+  }
+}
