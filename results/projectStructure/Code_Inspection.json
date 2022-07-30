@@ -34,11 +34,11 @@
           "type": "Own sources"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-resteasy-jsonb:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-resteasy-jsonb:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-jsonb:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-jsonb:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -46,11 +46,7 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-jsonp:2.8.3.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: org.jboss.resteasy:resteasy-json-binding-provider:4.7.5.Final",
+          "name": "Maven: io.quarkus:quarkus-jsonp:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -58,11 +54,15 @@
           "type": "Library"
         },
         {
+          "name": "Maven: org.jboss.resteasy:resteasy-json-binding-provider:4.7.5.Final",
+          "type": "Library"
+        },
+        {
           "name": "Maven: jakarta.json.bind:jakarta.json.bind-api:1.0.2",
           "type": "Library"
         },
         {
-          "name": "Maven: org.jboss.logging:jboss-logging:3.4.3.Final",
+          "name": "Maven: org.jboss.logging:jboss-logging:3.5.0.Final",
           "type": "Library"
         },
         {
@@ -74,7 +74,19 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-scheduler:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-scheduler:2.11.1.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.quarkus:quarkus-scheduler-kotlin:2.11.1.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.quarkus:quarkus-scheduler-common:2.11.1.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.quarkus:quarkus-scheduler-api:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -82,11 +94,119 @@
           "type": "Library"
         },
         {
-          "name": "Maven: org.slf4j:slf4j-api:1.7.36",
+          "name": "Maven: io.quarkus:quarkus-vertx:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: org.javassist:javassist:3.27.0-GA",
+          "name": "Maven: io.quarkus:quarkus-netty:2.11.1.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-codec:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-common:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-codec-http:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-codec-http2:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-handler:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-resolver:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-transport-native-unix-common:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: com.aayushatharva.brotli4j:brotli4j:1.7.1",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: com.aayushatharva.brotli4j:native-linux-x86_64:1.7.1",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-codec-haproxy:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-buffer:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-transport:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.smallrye.common:smallrye-common-annotation:1.13.0",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.smallrye.common:smallrye-common-vertx-context:1.13.0",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.vertx:vertx-core:4.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-handler-proxy:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-codec-socks:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-resolver-dns:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.netty:netty-codec-dns:4.1.78.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: com.fasterxml.jackson.core:jackson-core:2.13.3",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.smallrye.common:smallrye-common-constraint:1.13.0",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.quarkus:quarkus-vertx-latebound-mdc-provider:2.11.1.Final",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-core:2.24.1",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-runtime:2.24.1",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.smallrye.reactive:vertx-mutiny-generator:2.24.1",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.vertx:vertx-codegen:4.3.2",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: io.smallrye:smallrye-fault-tolerance-vertx:5.5.0",
           "type": "Library"
         },
         {
@@ -98,11 +218,11 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-arc:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-arc:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus.arc:arc:2.8.3.Final",
+          "name": "Maven: io.quarkus.arc:arc:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -126,7 +246,7 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-core:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-core:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -134,19 +254,19 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-ide-launcher:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-ide-launcher:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-development-mode-spi:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-development-mode-spi:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.config:smallrye-config:2.9.2",
+          "name": "Maven: io.smallrye.config:smallrye-config:2.10.1",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.config:smallrye-config-core:2.9.2",
+          "name": "Maven: io.smallrye.config:smallrye-config-core:2.10.1",
           "type": "Library"
         },
         {
@@ -154,23 +274,23 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.common:smallrye-common-expression:1.10.0",
+          "name": "Maven: io.smallrye.common:smallrye-common-expression:1.13.0",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.common:smallrye-common-function:1.10.0",
+          "name": "Maven: io.smallrye.common:smallrye-common-function:1.13.0",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.common:smallrye-common-classloader:1.10.0",
+          "name": "Maven: io.smallrye.common:smallrye-common-classloader:1.13.0",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.config:smallrye-config-common:2.9.2",
+          "name": "Maven: io.smallrye.config:smallrye-config-common:2.10.1",
           "type": "Library"
         },
         {
-          "name": "Maven: org.jboss.logmanager:jboss-logmanager-embedded:1.0.9",
+          "name": "Maven: org.jboss.logmanager:jboss-logmanager-embedded:1.0.10",
           "type": "Library"
         },
         {
@@ -182,7 +302,11 @@
           "type": "Library"
         },
         {
-          "name": "Maven: org.graalvm.sdk:graal-sdk:22.0.0.2",
+          "name": "Maven: org.slf4j:slf4j-api:1.7.36",
+          "type": "Library"
+        },
+        {
+          "name": "Maven: org.graalvm.sdk:graal-sdk:22.1.0",
           "type": "Library"
         },
         {
@@ -190,7 +314,7 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-bootstrap-runner:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-bootstrap-runner:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -202,83 +326,23 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-resteasy:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-resteasy:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-vertx-http:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-vertx-http:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-security-runtime-spi:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-security-runtime-spi:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.common:smallrye-common-vertx-context:1.10.0",
+          "name": "Maven: io.quarkus:quarkus-credentials:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.vertx:vertx-core:4.2.7",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-common:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-buffer:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-transport:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-handler:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-tcnative-classes:2.0.48.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-handler-proxy:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-codec-socks:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-codec-http:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-codec-http2:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-resolver:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-resolver-dns:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.netty:netty-codec-dns:4.1.74.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: com.fasterxml.jackson.core:jackson-core:2.13.2",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.smallrye.common:smallrye-common-constraint:1.10.0",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-vertx-http-dev-console-runtime-spi:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -286,83 +350,55 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-vertx:2.8.3.Final",
+          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-web:2.24.1",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-netty:2.8.3.Final",
+          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-web-common:2.24.1",
           "type": "Library"
         },
         {
-          "name": "Maven: io.netty:netty-codec:4.1.74.Final",
+          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:2.24.1",
           "type": "Library"
         },
         {
-          "name": "Maven: io.netty:netty-codec-haproxy:4.1.74.Final",
+          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:2.24.1",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.common:smallrye-common-annotation:1.10.0",
+          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-uri-template:2.24.1",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-core:2.21.0",
+          "name": "Maven: io.vertx:vertx-uri-template:4.3.2",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-runtime:2.21.0",
+          "name": "Maven: io.vertx:vertx-web:4.3.2",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.reactive:vertx-mutiny-generator:2.21.0",
+          "name": "Maven: io.vertx:vertx-web-common:4.3.2",
           "type": "Library"
         },
         {
-          "name": "Maven: io.vertx:vertx-codegen:4.2.7",
+          "name": "Maven: io.vertx:vertx-auth-common:4.3.2",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye:smallrye-fault-tolerance-vertx:5.3.1",
+          "name": "Maven: io.vertx:vertx-bridge-common:4.3.2",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-web:2.21.0",
+          "name": "Maven: io.github.crac:org-crac:0.1.1",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-web-common:2.21.0",
+          "name": "Maven: io.quarkus:quarkus-resteasy-server-common:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-auth-common:2.21.0",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.smallrye.reactive:smallrye-mutiny-vertx-bridge-common:2.21.0",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.vertx:vertx-web:4.2.7",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.vertx:vertx-web-common:4.2.7",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.vertx:vertx-auth-common:4.2.7",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.vertx:vertx-bridge-common:4.2.7",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.quarkus:quarkus-resteasy-server-common:2.8.3.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.quarkus:quarkus-resteasy-common:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-resteasy-common:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -394,11 +430,11 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-cache:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-cache:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-caffeine:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-caffeine:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -406,11 +442,11 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-mutiny:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-mutiny:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.reactive:mutiny:1.4.0",
+          "name": "Maven: io.smallrye.reactive:mutiny:1.6.0",
           "type": "Library"
         },
         {
@@ -418,7 +454,7 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-smallrye-context-propagation:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-smallrye-context-propagation:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -434,39 +470,39 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.smallrye.reactive:mutiny-smallrye-context-propagation:1.4.0",
+          "name": "Maven: io.smallrye.reactive:mutiny-smallrye-context-propagation:1.6.0",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-junit5:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-junit5:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-bootstrap-core:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-bootstrap-core:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-bootstrap-app-model:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-bootstrap-app-model:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-bootstrap-maven-resolver:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-bootstrap-maven-resolver:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-embedder:3.8.4",
+          "name": "Maven: org.apache.maven:maven-embedder:3.8.6",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-settings:3.8.4",
+          "name": "Maven: org.apache.maven:maven-settings:3.8.6",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-core:3.8.4",
+          "name": "Maven: org.apache.maven:maven-core:3.8.6",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-artifact:3.8.4",
+          "name": "Maven: org.apache.maven:maven-artifact:3.8.6",
           "type": "Library"
         },
         {
@@ -474,19 +510,19 @@
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-plugin-api:3.8.4",
+          "name": "Maven: org.apache.maven:maven-plugin-api:3.8.6",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-model:3.8.4",
+          "name": "Maven: org.apache.maven:maven-model:3.8.6",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-model-builder:3.8.4",
+          "name": "Maven: org.apache.maven:maven-model-builder:3.8.6",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-builder-support:3.8.4",
+          "name": "Maven: org.apache.maven:maven-builder-support:3.8.6",
           "type": "Library"
         },
         {
@@ -526,7 +562,7 @@
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-settings-builder:3.8.4",
+          "name": "Maven: org.apache.maven:maven-settings-builder:3.8.6",
           "type": "Library"
         },
         {
@@ -534,11 +570,11 @@
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-resolver-provider:3.8.4",
+          "name": "Maven: org.apache.maven:maven-resolver-provider:3.8.6",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven:maven-repository-metadata:3.8.4",
+          "name": "Maven: org.apache.maven:maven-repository-metadata:3.8.6",
           "type": "Library"
         },
         {
@@ -562,31 +598,27 @@
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven.wagon:wagon-http:3.4.3",
+          "name": "Maven: org.apache.maven.wagon:wagon-http:3.5.1",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven.wagon:wagon-http-shared:3.4.3",
+          "name": "Maven: org.apache.maven.wagon:wagon-http-shared:3.5.1",
           "type": "Library"
         },
         {
-          "name": "Maven: org.jsoup:jsoup:1.14.2",
+          "name": "Maven: org.apache.maven.wagon:wagon-provider-api:3.5.1",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven.wagon:wagon-provider-api:3.4.3",
+          "name": "Maven: org.apache.maven.wagon:wagon-file:3.5.1",
           "type": "Library"
         },
         {
-          "name": "Maven: org.apache.maven.wagon:wagon-file:3.4.3",
+          "name": "Maven: io.quarkus:quarkus-bootstrap-gradle-resolver:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-bootstrap-gradle-resolver:2.8.3.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: io.smallrye.common:smallrye-common-io:1.10.0",
+          "name": "Maven: io.smallrye.common:smallrye-common-io:1.13.0",
           "type": "Library"
         },
         {
@@ -594,11 +626,11 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-test-common:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-test-common:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-core-deployment:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-core-deployment:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -614,39 +646,39 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus.gizmo:gizmo:1.0.10.Final",
+          "name": "Maven: io.quarkus.gizmo:gizmo:1.0.11.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: org.ow2.asm:asm-util:9.2",
+          "name": "Maven: org.ow2.asm:asm-util:9.3",
           "type": "Library"
         },
         {
-          "name": "Maven: org.ow2.asm:asm:9.2",
+          "name": "Maven: org.ow2.asm:asm:9.3",
           "type": "Library"
         },
         {
-          "name": "Maven: org.ow2.asm:asm-commons:9.2",
+          "name": "Maven: org.ow2.asm:asm-commons:9.3",
           "type": "Library"
         },
         {
-          "name": "Maven: org.ow2.asm:asm-tree:9.2",
+          "name": "Maven: org.ow2.asm:asm-tree:9.3",
           "type": "Library"
         },
         {
-          "name": "Maven: org.ow2.asm:asm-analysis:9.2",
+          "name": "Maven: org.ow2.asm:asm-analysis:9.3",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-class-change-agent:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-class-change-agent:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-devtools-utilities:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-devtools-utilities:2.11.1.Final",
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-builder:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-builder:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -654,11 +686,7 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-jsonp-deployment:2.8.3.Final",
-          "type": "Library"
-        },
-        {
-          "name": "Maven: org.jboss:jandex:2.4.2.Final",
+          "name": "Maven: org.jboss:jandex:2.4.3.Final",
           "type": "Library"
         },
         {
@@ -666,7 +694,7 @@
           "type": "Library"
         },
         {
-          "name": "Maven: io.quarkus:quarkus-junit5-properties:2.8.3.Final",
+          "name": "Maven: io.quarkus:quarkus-junit5-properties:2.11.1.Final",
           "type": "Library"
         },
         {
@@ -778,11 +806,11 @@
           "type": "Library"
         },
         {
-          "name": "Maven: org.checkerframework:checker-qual:3.21.3",
+          "name": "Maven: org.checkerframework:checker-qual:3.22.2",
           "type": "Library"
         },
         {
-          "name": "Maven: com.google.errorprone:error_prone_annotations:2.11.0",
+          "name": "Maven: com.google.errorprone:error_prone_annotations:2.14.0",
           "type": "Library"
         },
         {
